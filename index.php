@@ -10,7 +10,7 @@
 
 <body>
   <?php
-  $a = nl2br('hello world' . "\n");
+  $a = nl2br("hello world\n");
   echo $a;
   echo date('Y-m-d H:i:s') . '現在';
   ?>
